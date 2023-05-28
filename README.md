@@ -1,38 +1,20 @@
-# create-svelte
+# Sois jeune et tais-toi
+*This repository is a project created for a french book. The documentation will be written in french to help contribution.*
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+Ce projet a pour but d'aider à accéder facilement aux notes et sources citées dans le livre [Sois jeune et tais-toi](https://www.payot-rivages.fr/payot/livre/sois-jeune-et-tais-toi-9782228931632), de Salomé Saqué
+## Contribution
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# installer les dependances
+npm install
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# démarrer le serveur de développement
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# commande alternative pour également ouvrir un onglet de votre navigateur sur l'application
 npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Typos
+*Les erreurs trouvées dans les sources*
+- Introduction#8 : Le dynamisme récent des <s>importantes</s> **importations** est-il surprenant ?

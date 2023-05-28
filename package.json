@@ -1,6 +1,6 @@
 {
-	"name": "sjett",
-	"version": "0.0.1",
+	"name": "sois-jeune-et-tais-toi",
+	"version": "0.1.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
