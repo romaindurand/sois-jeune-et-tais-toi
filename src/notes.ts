@@ -2,64 +2,64 @@ const parties: Partie[] = [
   {
     nom: "Avant-propos",
     notes: {
-      1: {
-        texte: "90% des investissements de TotalEnergies sont dans le pétrole et le gaz. L'entreprise est à l'origine de nombreux projets climaticides comme Eacop ou Tilenga (construction du plus grand oléoduc chauffé au monde en Tanzanie et en Ouganda, qui pourrait causer l'un des désastres environnementaux les plus importants du siècle).",
-        source: "https://ieefa.org/articles/despite-talk-shell-and-total-are-still-investing-much-more-fossil-fuels-renewables"
-      },
-      2: {
-        texte: "Il n'y avait pas que des moins de 28 ans ce jour-là, mais ils constituaient le gros de la foule des militants écologistes, quand les sexagénaires constituaient la majorité de la foule des actionnaires.",
-      }   
+      1: [
+        "90% des investissements de TotalEnergies sont dans le pétrole et le gaz. L'entreprise est à l'origine de nombreux projets climaticides comme Eacop ou Tilenga (construction du plus grand oléoduc chauffé au monde en Tanzanie et en Ouganda, qui pourrait causer l'un des désastres environnementaux les plus importants du siècle).",
+        "https://ieefa.org/articles/despite-talk-shell-and-total-are-still-investing-much-more-fossil-fuels-renewables"
+      ],
+      2: [
+        "Il n'y avait pas que des moins de 28 ans ce jour-là, mais ils constituaient le gros de la foule des militants écologistes, quand les sexagénaires constituaient la majorité de la foule des actionnaires."
+      ]
     },
   },
   {
     nom: "Introduction",
     notes: {
-      1: {
-        texte: "Les dictionnaires Larousse et le Petit Robert les définissent comme les personnes de plus de 50 ans, mais je ne m'arrête pas à cette limite d'âge, ils peuvent être plus jeunes, et plus vieux. Ils sont dans tous les cas « plus âgés » comme choisit de les définir l'Académie française, et c'est justement là-dessus qu'ils appuient leur légitimité."
-      },
-      2: {
-        texte: "Et probablement aussi parce que je suis une femme, mais ce sujet mériterait un livre à lui tout seul, et ce n'est pas la thématique que j'entends traiter dans ces pages."
-      },
-      3: {
-        source: "https://lanetscouade.com/picks/journalistes-influenceurs-le-circuit-de-la-copie-d-un-tweet-est-presque-aussi-rigoureux-que-celui-d-un-article/"
-      },
-      4: {
-        texte: "Groupe d'experts intergouvernemental sur l'évolution du climat"
-      },
-      5: {
-        texte: "Sport Utility Vehicle, caractérisés par leur hauteur, leur volume important et leur consommation de carburant injustifiée au regard de leur utilisation."
-      },
-      6: {
-        texte: "Et selon un rapport de l'ONG WWF, ils sont même la deuxième source de hausse des émissions de CO, en France.",
-        source: "https://www.wwf.fr/sengager-ensemble/relayer-campagnes/stop-suv"
-      },
-      7: {
-        texte: "« Trafic aérien : une hausse quasi continue depuis trois décennies », Libération, 10 octobre 2019.",
-        source: "https://www.liberation.fr/france/2019/10/10/trafic-aerien-une-hausse-quasi-continue-depuis-trois-decennies_1756233/"
-      },
-      8: {
-        texte: "Le dynamisme récent des importations est-il surprenant? Banque de France, Bloc-notes éco, 6 novembre 2011.",
-        source: "https://blocnotesdeleco.banque-france.fr/billet-de-blog/le-dynamisme-recent-des-importations-est-il-surprenant"
-      },
-      9: {
-        texte: "Entendues comme les seuils que l'humanité ne devrait pas dépasser pour ne pas compromettre les conditions permettant de vivre durablement dans un écosystème sûr. En gros, quand on les dépasse, ça risque de mal tourner. Elles concernent aussi bien le changement climatique que l'érosion de la biodiversité ou l'utilisation mondiale de l'eau et l'augmentation des pollu- tions chimiques. Pour aller plus loin: https://www.stockholmresilience.org/research/planetary-boundaries.html",
-        source: "https://www.stockholmresilience.org/research/planetary-boundaries.html"
-      },
-      10: {
-        texte: "Contrepoints, 30 juillet 2022",
-        source: "https://www.contrepoints.org/2022/07/30/436056-les-jeunes-contre-les-boomers"
-      },
-      11: {
-        texte: "« Génération Y, génération narcissique », Le Point, 26 février 2015",
-        source: "https://www.lepoint.fr/societe/generation-y-generation-narcissique-26-02-2015-1908005_23.php"
-      },
-      12: {
-        source: "https://atlantico.fr/article/decryptage/les-millennials-generation-douillette--et-si-l-explication-etait-au-moins-autant-dans-l-education-donnee-a-nos-enfants-que-dans-la-durete-du-monde-contemporain-bertrand-vergely-laetitia-vitaud"
-      },
-      13: {
-        source: "https://www.nouvelobs.com/planete/20190724.OBS16332/michel-onfray-se-dechaine-contre-greta-thunberg-la-cyborg-suedoise.html"
+      1: [
+        "Les dictionnaires Larousse et le Petit Robert les définissent comme les personnes de plus de 50 ans, mais je ne m'arrête pas à cette limite d'âge, ils peuvent être plus jeunes, et plus vieux. Ils sont dans tous les cas « plus âgés » comme choisit de les définir l'Académie française, et c'est justement là-dessus qu'ils appuient leur légitimité."
+      ],
+      2: [
+        "Et probablement aussi parce que je suis une femme, mais ce sujet mériterait un livre à lui tout seul, et ce n'est pas la thématique que j'entends traiter dans ces pages."
+      ],
+      3: [
+        "https://lanetscouade.com/picks/journalistes-influenceurs-le-circuit-de-la-copie-d-un-tweet-est-presque-aussi-rigoureux-que-celui-d-un-article/"
+      ],
+      4: [
+        "Groupe d'experts intergouvernemental sur l'évolution du climat"
+      ],
+      5: [
+        "Sport Utility Vehicle, caractérisés par leur hauteur, leur volume important et leur consommation de carburant injustifiée au regard de leur utilisation."
+      ],
+      6: [
+        "Et selon un rapport de l'ONG WWF, ils sont même la deuxième source de hausse des émissions de CO, en France.",
+        "https://www.wwf.fr/sengager-ensemble/relayer-campagnes/stop-suv"
+      ],
+      7: [
+        "« Trafic aérien : une hausse quasi continue depuis trois décennies », Libération, 10 octobre 2019.",
+        "https://www.liberation.fr/france/2019/10/10/trafic-aerien-une-hausse-quasi-continue-depuis-trois-decennies_1756233/"
+      ],
+      8: [
+        "Le dynamisme récent des importations est-il surprenant? Banque de France, Bloc-notes éco, 6 novembre 2011.",
+        "https://blocnotesdeleco.banque-france.fr/billet-de-blog/le-dynamisme-recent-des-importations-est-il-surprenant"
+      ],
+      9: [
+        "Entendues comme les seuils que l'humanité ne devrait pas dépasser pour ne pas compromettre les conditions permettant de vivre durablement dans un écosystème sûr. En gros, quand on les dépasse, ça risque de mal tourner. Elles concernent aussi bien le changement climatique que l'érosion de la biodiversité ou l'utilisation mondiale de l'eau et l'augmentation des pollu- tions chimiques. Pour aller plus loin: https://www.stockholmresilience.org/research/planetary-boundaries.html",
+        "https://www.stockholmresilience.org/research/planetary-boundaries.html"
+      ],
+      10: [
+        "Contrepoints, 30 juillet 2022",
+        "https://www.contrepoints.org/2022/07/30/436056-les-jeunes-contre-les-boomers"
+      ],
+      11: [
+        "« Génération Y, génération narcissique », Le Point, 26 février 2015",
+        "https://www.lepoint.fr/societe/generation-y-generation-narcissique-26-02-2015-1908005_23.php"
+      ],
+      12: [
+        "https://atlantico.fr/article/decryptage/les-millennials-generation-douillette--et-si-l-explication-etait-au-moins-autant-dans-l-education-donnee-a-nos-enfants-que-dans-la-durete-du-monde-contemporain-bertrand-vergely-laetitia-vitaud"
+      ],
+      13: [
+        "https://www.nouvelobs.com/planete/20190724.OBS16332/michel-onfray-se-dechaine-contre-greta-thunberg-la-cyborg-suedoise.html"
 
-      }
+      ]
     }
   }
 ]
@@ -93,6 +93,5 @@ const parties: Partie[] = [
 
 export default parties
 
-export type Note = { texte?: string, source?: string }
-export type Partie = { nom: string, notes: Record<number, Note> }
-export type Resultat = { nom: string, note: Note }
+export type Partie = { nom: string, notes: Record<number, string[]> }
+export type Resultat = { nom: string, note: string[] }

@@ -30,6 +30,15 @@
     }]
     return []
   }
+
+  function isUrl(str: string) {
+    try {
+      new URL(str);
+      return true;
+    } catch {
+      return false;
+    }
+  }
 </script>
 
 <h2>Salomé Saqué</h2>
@@ -52,16 +61,17 @@
 {#each resultats as resultat}
 <div class="resultat">
   <h4>{resultat.nom}</h4>
-  {#if resultat.note?.texte}
-    <p>{resultat.note?.texte}</p>
-  {/if}
-  {#if resultat.note?.source}
-    <p>
-      <a href={resultat.note?.source}>
-        {resultat.note?.source}
-      </a>
-    </p>
-  {/if}
+  {#each resultat.note as note}
+    {#if isUrl(note)}
+      <p>
+        <a href={note}>
+          {note}
+        </a>
+      </p>
+    {:else}
+      <p>{note}</p>
+    {/if}
+  {/each}
 </div>
 {/each}
 
